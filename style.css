@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  color: #fff;
+  background-color: #1f2937;
+}
+
+.focus {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 100px 300px;
+  color: #fff;
+  background-color: #1f2937;
+}
+
+.hero {
+  border-radius: 10px;
+  height: 300px;
+  width: 300px;
+}
+
+.buzz {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
