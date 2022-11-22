@@ -8,26 +8,38 @@ a {
   color: #fff;
 }
 
+header {
+  color: #fff;
+  background-color: #1f2937;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
   align-content: center;
-  color: #fff;
-  background-color: #1f2937;
+  padding: 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: left;
+}
+
+.table-links a {
+  margin: 5px;
 }
 
 .focus {
   display: flex;
   justify-content: space-evenly;
   padding: 100px 10px;
-  color: #fff;
-  background-color: #1f2937;
 }
 
 .hero {
   border-radius: 10px;
   height: 400px;
-  width: 700px;
+  width: 600px;
+  box-shadow: 0 0 50px black;
 }
 
 .text-1 {
