@@ -41,14 +41,32 @@ nav {
   border-radius: 10px;
   height: 400px;
   width: 600px;
-  box-shadow: 0 0 50px black;
 }
 
 .text-1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: left;
-  margin: 10px;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+.text-1 h1 {
+  font-size: 4rem;
+}
+
+.text-1 p {
+  font-size: 20px;
+}
+
+.text-1 a {
+  background-color: #9b0000;
+  margin-top: 15px;
   padding: 10px;
+  border-radius: 5px;
+}
+
+.groups {
+  padding: 100px;
+  background-color: #ab0000;
 }
