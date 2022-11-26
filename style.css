@@ -20,6 +20,12 @@ nav {
   padding: 10px;
 }
 
+section h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 80px;
+}
+
 .logo {
   display: flex;
   align-items: left;
@@ -66,7 +72,35 @@ nav {
   border-radius: 5px;
 }
 
-.old-yonko {
-  padding: 100px;
+.old {
   background-color: #ab0000;
+}
+
+.new {
+  background-color: #00ccff;
+}
+
+.yonko {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 50px 70px 50px;
+}
+
+.yonko img {
+  height: 300px;
+  width: 300px;
+  border: solid 5px;
+  border-radius: 50%;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.profile h3 {
+  margin-top: 10px;
 }
