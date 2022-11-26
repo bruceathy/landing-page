@@ -44,6 +44,7 @@ section h1 {
 }
 
 .hero {
+  border: 4px solid #000000;
   border-radius: 10px;
   height: 400px;
   width: 600px;
@@ -66,7 +67,7 @@ section h1 {
 }
 
 .text-1 a {
-  background-color: #9b0000;
+  background-color: #ab0000;
   margin-top: 15px;
   padding: 10px;
   border-radius: 5px;
@@ -84,7 +85,7 @@ section h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 50px 50px 70px 50px;
+  padding: 40px 50px 70px 50px;
 }
 
 .yonko img {
@@ -103,4 +104,21 @@ section h1 {
 
 .profile h3 {
   margin-top: 10px;
+}
+
+.one-piece {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  background-image: url(../images/grandline.webp);
+  padding: 30px;
+}
+
+.one-piece h2 {
+  font-size: 100px;
+}
+
+.one-piece p {
+  font-size: 40px;
 }
