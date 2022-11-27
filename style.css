@@ -99,7 +99,7 @@ footer {
 .yonko img {
   height: 300px;
   width: 300px;
-  border: solid 5px;
+  border: solid 2px;
   border-radius: 50%;
 }
 
@@ -121,6 +121,10 @@ footer {
   justify-content: center;
   background-image: url(../images/grandline.webp);
   padding: 30px;
+}
+
+.mystery {
+  color: #ab0000;
 }
 
 .one-piece h2 {
